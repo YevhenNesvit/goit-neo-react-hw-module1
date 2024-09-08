@@ -1,29 +1,29 @@
 .friendItem {
-    display: flex;
-    flex-direction: column; /* Встановлює вертикальне вирівнювання */
-    align-items: center; /* Центрує всі елементи по горизонталі */
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    margin-bottom: 10px;
-  }
-  
-  .avatar {
-    width: 48px;
-    height: 48px;
-    border-radius: 50%;
-    margin-bottom: 8px; /* Відступ між зображенням та ім'ям */
-  }
-  
-  .name {
-    margin-bottom: 4px; /* Відступ між ім'ям та статусом */
-    font-weight: bold;
-  }
-  
-  .online {
-    color: green;
-  }
-  
-  .offline {
-    color: red;
-  }
+  display: flex;
+  flex-direction: column; /* Встановлює вертикальне вирівнювання */
+  align-items: center; /* Центрує всі елементи по горизонталі */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.avatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  margin-bottom: 8px; /* Відступ між зображенням та ім'ям */
+}
+
+.name {
+  margin-bottom: 4px; /* Відступ між ім'ям та статусом */
+  font-weight: bold;
+}
+
+.online {
+  color: green;
+}
+
+.offline {
+  color: red;
+}
